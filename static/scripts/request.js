@@ -5,7 +5,7 @@ service.defaults.timeout = 40000;
 /* 配置请求头 */
 service.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';
 // 配置接口地址
-service.defaults.baseURL = globalData.open;
+service.defaults.baseURL = '';
 //添加request拦截器
 service.interceptors.request.use(config => {
     // 默认参数设置：所有接口都必须传的值（比如：token）从localstorage中拿

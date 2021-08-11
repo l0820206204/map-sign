@@ -15,13 +15,13 @@ html {
   width: 100%;
   height: 100%;
   background: #fff;
+  font-size: 10px;
 }
 
 body {
   margin: 0;
   padding: 0;
   color: #333;
-  font-size: 12px;
   font-family: "Lantinghei SC", "Open Sans", "Hiragino Sans GB", "\5fae\8f6f\96c5\9ed1", "Microsoft YaHei", SimHei, Helvetica, Arial, SimSun;
   line-height: 1.5;
 }
